@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1512.8px;
+    margin: 0 auto;
+}
+.wapper{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    /* display: flex; */
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.menu{
+    display: inline-block;
+    width: 945.5px;
+    margin-left: 84px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    font-weight: 600;
+    margin-top: 54px;
+    font-size: 11px;
+}
+.menu ul li:nth-child(4){
+    margin-top: 30px;   
+}
+.menu ul li:nth-child(8){
+    margin-top: 43px;
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+    background: none; 
+    border: none; 
+    padding: 0; 
+    margin: 0; 
+}
+.link{
+    width: 68.86px;
+    display: inline-block;
+    float: right;
+}
+.link img{
+   margin:40px 0px 0px ;
+}
+
+.footer{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    background: black;
+    color: white;
+    font-size: 14px;
+}
+.footer_container{
+    width: 1010px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+.footer_main ul li ul {
+    display: flex;
+    margin: 8px 8px 0px 0px;
+}
+.footer_main ul li ul li img{
+    
+    margin: -1px 8px 0px 0px;
+}
+.footer_sp_dv ul li:nth-child(2)
+, .footer_sp_dv ul li:nth-child(3)
+, .footer_sp_dv ul li:nth-child(4)
+, .footer_sp_dv ul li:nth-child(5)
+, .footer_sp_dv ul li:nth-child(6){
+    margin-top: 12px;
+
+}
+
+.input{
+    display: flex;
+    margin: 30px 0px 5px 0px;
+}
+.input input , .button {
+    padding: 5px;
+}
+.button {
+    background: rgb(238, 138, 7);
+    cursor: pointer;
+}
+.button:hover{
+    background: blue;
+}
+
+/* ====================================================== */
+.gio_hang{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+.shop{
+    width: 945.5px;
+    display: grid;
+    /* justify-content: center; */
+    text-align: center;
+}
+.table{
+    margin-top: 50px;
+}
+.table ul {
+    display: flex;
+    justify-content: space-between;
+}
+.body_table{
+    margin-top: 40px;
+    /* display: grid; */
+    /* justify-content: end; */
+}
+.body_table h4{
+    margin-bottom: 15px;
+    text-align: end;
+}
+.buy{
+    width: 945.5px;
+   
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    text-align: end;
+}
+.buy a{
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    background: gray;
+    display: inline-block;
+}
+.buy_1{
+    
+}
